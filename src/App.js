@@ -1,13 +1,14 @@
 import React from 'react';
 import './App.css';
-import FormUrl from './components/FormUrl';
+import Form from './components/Form';
+
 
 
 function App() {
   return (
 
     <div className="App">
-        <FormUrl />
+           <Form/>
     </div>
 
   );

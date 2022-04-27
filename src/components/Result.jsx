@@ -15,7 +15,7 @@ export default function Result({ url1, url2 }) {
     let percent = stringSimilarity.compareTwoStrings(url1, url2);
     let formatPercent = percent * 100
     setData(formatPercent);
-    // console.log(data)
+   
   }
 
   useEffect(()=>{
